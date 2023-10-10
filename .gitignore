@@ -1,0 +1,4 @@
+*.class
+*.xml
+monkelang/target/*
+monkelang/src/main/resources/*
