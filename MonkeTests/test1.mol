@@ -1,3 +1,8 @@
-
-/**/
+// here a comment
+/* here is another comment; the main difference is that
+ this one is gonna be commented until it finds the inversed open comment.
+*/
 monke start()
+{
+    gives
+}
