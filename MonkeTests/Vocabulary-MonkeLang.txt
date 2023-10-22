@@ -1,0 +1,36 @@
+// here is a comment
+/* here is another comment; the main difference is that
+ this one is gonna be commented until it finds the inversed open comment.
+*/
+
+//Aquí, declarando lenguajes porqué el de amor no me lo sé...
+
+iikiik      // keyword for input.
+ookook      // keyword for output.
+perma       // keyword to determine when a variable or function will be constant.
+empty       // keyword for specifying that there's no type.
+yeet        // keyword for 'break'
+palm        // keyword for 'bool', 
+banana      // default true
+banant      // default false
+think       // keyword for 'if'
+either      // keyword for 'else'
+gives       // keyword for 'return'
+monke       // keyword to define a functions
+start       // keyword? to define the initial function of the program.
+number      // keyword for int type.
+0b[0|1]+        // binary number
+0x[A-Fa-f0-9]+  // hexadecimal number
+0o[0-7]+        // octal number
+addition        // keyword to 'include'
+repeatIf(condition){}   // while
+for(declare; cond; operation){} //for
+
+!               // keyword for negation boolean or condition.
+v               // keyword for logical or
+^               // keyword for logical AND
+
+monke start() // monke is a token to start functions, while starts means the first function to be called.
+{
+    gives // Gives is a keyword for returning a value from a function.
+}

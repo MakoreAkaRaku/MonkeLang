@@ -1,0 +1,22 @@
+empty monke sayNumber(number ntoOok)
+{
+    ookook(nToOok);
+}
+
+empty monke start(number n, char arg)
+{
+    palm isTenFound = banant;
+    number tmp = -5;
+    repeatIf( !isTenFound)
+    {
+        tmp = tmp + 1; // Consider using += aswell.
+        sayNumber(tmp);
+    }
+
+    for(number i = 5; i > 0; i++)
+    {
+        tmp = tmp * 10;
+        sayNumber(tmp);
+    }
+    gives 0;
+}

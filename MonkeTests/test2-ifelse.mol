@@ -1,0 +1,14 @@
+empty monke start(number n, char arg)
+{
+    palm isTrue = banana;
+    palm isFalse = banant;
+    think( isTrue == isFalse)
+    {
+        ookook(1);
+    }
+    either think (isTrue ^ !isFalse)
+    {
+        ookook(0);
+    }
+    gives 0;
+}

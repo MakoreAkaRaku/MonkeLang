@@ -1,0 +1,15 @@
+number monke askNumber()
+{
+    gives iikiik();
+}
+
+empty monke start(number n, char arg)
+{
+    number askedNum = -1;
+    perma number CORRECT_NUM = 8;
+    repeatIf(askedNum != CORRECT_NUM)
+    {
+        askedNum= askNumber();
+    }
+    gives 0;
+}
