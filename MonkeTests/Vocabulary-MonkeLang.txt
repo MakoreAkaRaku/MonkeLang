@@ -5,17 +5,22 @@
 
 //Aquí, declarando lenguajes porqué el de amor no me lo sé...
 
-iikiik      // keyword for input.
-ookook      // keyword for output.
-perma       // keyword to determine when a variable or function will be constant.
-empty       // keyword for specifying that there's no type.
-yeet        // keyword for 'break'
-palm        // keyword for 'bool', 
-banana      // default true
-banant      // default false
-think       // keyword for 'if'
-either      // keyword for 'else'
-gives       // keyword for 'return'
+// -> LineComm
+/* -> OpenComm
+*/ -> CloseComm
+
+char    ->  char
+iikiik  ->  input
+ookook  ->  output
+perma   ->  constant
+empty   ->  noType
+yeet    ->  break
+palm    ->  bool 
+banana  ->  true
+banant  ->  false
+think   ->  if
+either  ->  else
+gives   ->  return
 monke       // keyword to define a functions
 start       // keyword? to define the initial function of the program.
 number      // keyword for int type.
@@ -23,13 +28,26 @@ number      // keyword for int type.
 0x[A-Fa-f0-9]+  // hexadecimal number
 0o[0-7]+        // octal number
 addition        // keyword to 'include'
-repeatIf(condition){}   // while
-for(declare; cond; operation){} //for
-
-!               // keyword for negation boolean or condition.
-v               // keyword for logical or
-^               // keyword for logical AND
-
+repeatIf    -> while
+for ->  for
+(   ->  openParenth
+)   ->  closeParenth
+{   ->  openKey
+}   ->  closeKey
+[   ->  openBrack
+]   ->  closeBrack
+;   ->  endLine
+!   ->  negation            // keyword for negation boolean or condition.
+or  ->  or            // keyword for logical or
+and ->  and            // keyword for logical AND
+!=  ->  distinct
+==  ->  equals
+<=  ->  lessThan
+>=  ->  greatThan
+>   ->  greater
+<   ->  lesser
+=   ->  assign
+[A-Za-z_][A-Za-z_0-9]* -> identifier
 monke start() // monke is a token to start functions, while starts means the first function to be called.
 {
     gives // Gives is a keyword for returning a value from a function.

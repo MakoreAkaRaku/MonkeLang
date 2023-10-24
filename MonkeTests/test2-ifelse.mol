@@ -6,7 +6,7 @@ empty monke start(number n, char arg)
     {
         ookook(1);
     }
-    either think (isTrue ^ !isFalse)
+    either think (isTrue and !isFalse)
     {
         ookook(0);
     }
